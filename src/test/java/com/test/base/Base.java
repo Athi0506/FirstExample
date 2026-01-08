@@ -32,6 +32,8 @@ public class Base {
 	public static WebDriver driver = null;
 	public static  JavascriptExecutor js;
 	public static Actions actions;
+	
+	//this command line is for learning purpose to raise pull request from test to main
 
 	// **** 1. Launch Browser ****
 	public WebDriver launchBrowser(String browserName) {
